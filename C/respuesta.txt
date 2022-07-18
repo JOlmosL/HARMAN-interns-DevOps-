@@ -1,0 +1,12 @@
+Si tomamos en cuenta que el archivo se llama "archivo.c"
+
+Primero debemos movernos al directorio que contiene el archivo a compilar.
+Usaremos el comando:
+    cd RUTA_HACIA_EL_ARCHIVO
+Una vez en el directorio correcto, procederemos a compilar el archivo.
+El comando que utilizaremos será:
+    gcc archivo.c
+    (Esto hará que se cree el fichero a.out, y funcionará como cualquier otro comando)
+    En el caso contrario a que si no queremos que el fichero se llame "a.out", utilizaremos el siguiente comando:
+    gcc archivo.c -o NOMBRE_DE_TU_GUSTO
+    (Esto hará que el fichera tenga el nombre que uno elija.)

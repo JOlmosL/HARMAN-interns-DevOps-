@@ -1,0 +1,11 @@
+## C/C++
+ 
+- Proveer el comando de compilación utilizando GCC del siguiente archivo:
+ 
+```C
+#include <stdio.h>
+int main() {
+printf("This is my program!\n");
+return 0;
+}
+```

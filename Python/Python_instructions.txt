@@ -1,0 +1,18 @@
+## Python
+ 
+Hacer un script que lea el siguiente contenido:
+ 
+```Plain
+This is a line
+This line must match ABC
+This is another line
+```
+ 
+Si la línea contiene 'ABC' deberá agregar el siguiente texto antes de la línea 'X | ' sino '0 | '
+ 
+Expected output:
+ 
+```Plain
+0 | This is a line
+X | This line must match ABC
+0 | This is another line
